@@ -1,4 +1,5 @@
-** EXP.NO.7-Simulation-of-Digital-Modulation-Techniques**
+# EXP.NO.7-Simulation-of-Digital-Modulation-Techniques
+
 7. Simulation of Digital Modulation Techniques Such as
    i) Amplitude Shift Keying (ASK)
    ii) Frequency Shift Keying (FSK)
@@ -12,16 +13,13 @@ To study the Python simulation for digital modulation techniques.
 python using colab.
 # ALGORITHMS
 1. Digital Modulation Function: The function digital_modulation takes in binary data, modulation type, carrier frequency, sampling rate, and symbol rate.
-
 2. Modulation Types: The function supports ASK (Amplitude Shift Keying), FSK (Frequency Shift Keying), and PSK (Phase Shift Keying) modulation types.
-
 3. Modulated Signal Generation: The function generates the modulated signal based on the chosen modulation type and returns the modulated signal and time vector.
-
 4. Error Handling: The code includes a try-except block to catch the ValueError that occurs when an incorrect modulation type is passed to the function.
-
 5. Alternative Data Generation: The code demonstrates how to generate random binary data using numpy.random.randint() for testing with different data patterns
 # PROGRAM
 **1)ASK**
+```
 import numpy as np 
 import matplotlib.pyplot as plt 
 
@@ -56,11 +54,12 @@ plt.xlabel('Time')
 plt.ylabel('Amplitude') 
 plt.tight_layout() 
 plt.show()
-
+```
 # OUTPUT
-![image](https://github.com/user-attachments/assets/4f092945-227d-4a57-8eb3-10cbf902e3ee)
+![image](https://github.com/user-attachments/assets/0fb8b3d3-6011-485b-bff3-d4f2fedfb33b)
 
 **2)FSK**
+```
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -112,11 +111,12 @@ plt.ylabel('Amplitude')
 
 plt.tight_layout()
 plt.show()
-
+```
 **OUTPUT**
 ![image](https://github.com/user-attachments/assets/2f75acf4-feaa-47f3-ad47-90da5a29ce2d)
 
 **3)PSK**
+```
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -166,7 +166,7 @@ plt.ylabel('Amplitude')
 
 plt.tight_layout()
 plt.show()
-
+```
 **OUTPUT**
 ![image](https://github.com/user-attachments/assets/96f47905-bf1c-4f22-9a03-5e3ea385d8d1)
 
