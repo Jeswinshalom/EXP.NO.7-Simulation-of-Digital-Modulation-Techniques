@@ -1,9 +1,9 @@
-# EXP.NO.7-Simulation-of-Digital-Modulation-Techniques
+# EXP.NO.7-Simulation of Digital Modulation Techniques
 
 7. Simulation of Digital Modulation Techniques Such as
-   i) Amplitude Shift Keying (ASK)
-   ii) Frequency Shift Keying (FSK)
-   iii) Phase Shift Keying (PSK)
+       i) Amplitude Shift Keying (ASK)
+      ii) Frequency Shift Keying (FSK)
+     iii) Phase Shift Keying (PSK)
 
 # AIM
 To study the Python simulation for digital modulation techniques.
@@ -18,7 +18,7 @@ python using colab.
 4. Error Handling: The code includes a try-except block to catch the ValueError that occurs when an incorrect modulation type is passed to the function.
 5. Alternative Data Generation: The code demonstrates how to generate random binary data using numpy.random.randint() for testing with different data patterns
 # PROGRAM
-**1)ASK**
+**i)ASK**
 ```
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -58,7 +58,7 @@ plt.show()
 # OUTPUT
 ![image](https://github.com/user-attachments/assets/0fb8b3d3-6011-485b-bff3-d4f2fedfb33b)
 
-**2)FSK**
+**ii)FSK**
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -115,7 +115,7 @@ plt.show()
 **OUTPUT**
 ![image](https://github.com/user-attachments/assets/2f75acf4-feaa-47f3-ad47-90da5a29ce2d)
 
-**3)PSK**
+**iii)PSK**
 ```
 import numpy as np
 import matplotlib.pyplot as plt
